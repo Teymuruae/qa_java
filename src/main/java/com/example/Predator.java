@@ -2,8 +2,12 @@ package com.example;
 
 import java.util.List;
 
-public interface Predator {
+public interface Predator  {
 
     List<String> eatMeat() throws Exception;
+
+    public int getKittens();
+
+    public int getKittens(int kittensCount);
 
 }
