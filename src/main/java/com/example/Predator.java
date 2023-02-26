@@ -6,8 +6,8 @@ public interface Predator  {
 
     List<String> eatMeat() throws Exception;
 
-    public int getKittens();
-
-    public int getKittens(int kittensCount);
+//    public int getKittens();
+//
+//    public int getKittens(int kittensCount);
 
 }

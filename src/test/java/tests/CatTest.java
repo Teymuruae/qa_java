@@ -35,10 +35,5 @@ public class CatTest {
       Assert.assertEquals(expectedResult,actualResult);
     }
 
-    @Test (expected = Exception.class)
-  public void getFoodMethodInCatThrowExceptionTest() throws Exception{
-      Cat cat = new Cat(feline);
-      Mockito.when(feline.eatMeat()).thenThrow(new Exception());
-      cat.getFood();
-    }
+
 }

@@ -28,7 +28,8 @@ public class LionTestParameterizedConstructor {
 
     @Test
     public void lionConstructorTest() throws Exception {
-        Lion lion = new Lion(sex, null, result);
+        Lion lion = new Lion(sex, null);
+
         Assert.assertEquals(lion.doesHaveMane(), result);
     }
 }
